@@ -1,0 +1,19 @@
+.title_container {
+    background-image: url('../img/keyboard.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 450px;
+    color: #3498db;
+    margin-top: 0;
+}
+
+.page-header {
+    margin: 0 20px;
+}
+
+
+.center-text{
+    text-align: center;
+    padding: 0 55px;
+}
