@@ -1,3 +1,8 @@
+*{
+    font-family: 'PT Serif', Arial;
+    font-size: 18px;
+}
+
 .title_container {
     background-image: url('../img/keyboard.jpg');
     background-repeat: no-repeat;
@@ -9,11 +14,29 @@
 }
 
 .page-header {
-    margin: 0 20px;
+    margin:30px;
 }
 
 
 .center-text{
     text-align: center;
     padding: 0 55px;
+}
+
+.testimonials{
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 4px 4px 0px rgba(0,0,0,0.025);
+    margin: 25px;
+}
+
+.testimonials-content{
+    font-family: 'PT Serif',Arial !important;
+    font-size: 18px;
+    line-height: 28px;
+    font-style: italic;
+}
+
+.panel-footer{
+    text-align: right;
 }
