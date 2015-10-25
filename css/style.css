@@ -19,7 +19,7 @@
     text-align: center;
     height: 450px;
     color: #3498db;
-    margin-top: 0;
+    margin-top: 30px;
 }
 
 .page-header {
@@ -27,8 +27,23 @@
     text-align: center;
 }
 
+.phone-box {
+    margin-top: 10px;
+}
+
+.head-text {
+    font-family: 'Sonsie One', cursive;
+    max-width: 50%;
+    margin: 53px auto;
+}
+
 .text-content {
     margin: 25px;
+}
+
+.jumbotron{
+    background-color: white;
+    margin-top: 128px;
 }
 
 .center-text{
