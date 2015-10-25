@@ -7,6 +7,10 @@
     padding: 10px 30px;
 }
 
+.navbar-default {
+    color: #3498db;
+}
+
 .fa, .section_title {
     color: #3498db;
     margin-bottom: 10px;
@@ -43,7 +47,12 @@
 
 .jumbotron{
     background-color: white;
-    margin-top: 128px;
+    margin: 135px auto;
+}
+
+.section-title {
+    margin-bottom: 20px;
+    color: #3498db;
 }
 
 .center-text{
@@ -72,4 +81,9 @@
 
 .panel-footer{
     text-align: right;
+}
+
+#footer {
+    margin-top: 40px;
+    font-size: 14px;
 }

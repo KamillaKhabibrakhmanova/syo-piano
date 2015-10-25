@@ -1,14 +1,22 @@
 $('a[href*=#bio]').on('click', function(event){
     event.preventDefault();
-    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+
+    $('.nav-link').removeClass('active');
+    $(this).parent().addClass('active');
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 53);
 });
 $('a[href*=#testimonials]').on('click', function(event){
     event.preventDefault();
-    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+    $('.nav-link').removeClass('active');
+    $(this).parent().addClass('active');
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 553);
 });
+
 $('a[href*=#contact]').on('click', function(event){
     event.preventDefault();
-    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+    $('.nav-link').removeClass('active');
+    $(this).parent().addClass('active');
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 553);
 });
 
 var signupForm = document.getElementById('signup-form');
