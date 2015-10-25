@@ -1,22 +1,34 @@
-$('a[href*=#bio]').on('click', function(event){
-    event.preventDefault();
+$('a[href*=#logo]').on('click', function(event){
+    $('.nav-link').removeClass('active');
+    $('html,body').animate({scrollTop:0}, 500);
+});
 
+$('a[href*=#about]').on('click', function(event){
+    event.preventDefault();
     $('.nav-link').removeClass('active');
     $(this).parent().addClass('active');
-    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 53);
+    $('html,body').animate({scrollTop:$(this.hash).offset().top - 53}, 500);
 });
+
+$('a[href*=#bio]').on('click', function(event){
+    event.preventDefault();
+    $('.nav-link').removeClass('active');
+    $(this).parent().addClass('active');
+    $('html,body').animate({scrollTop:$(this.hash).offset().top - 53}, 500);
+});
+
 $('a[href*=#testimonials]').on('click', function(event){
     event.preventDefault();
     $('.nav-link').removeClass('active');
     $(this).parent().addClass('active');
-    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 553);
+    $('html,body').animate({scrollTop:$(this.hash).offset().top - 135}, 500);
 });
 
 $('a[href*=#contact]').on('click', function(event){
     event.preventDefault();
     $('.nav-link').removeClass('active');
     $(this).parent().addClass('active');
-    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 553);
+    $('html,body').animate({scrollTop:$(this.hash).offset().top -53}, 500);
 });
 
 var signupForm = document.getElementById('signup-form');
