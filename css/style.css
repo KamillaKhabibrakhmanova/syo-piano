@@ -1,5 +1,6 @@
 *{
-    font-family: 'PT Serif', Arial;
+    /*font-family: 'PT Serif', Arial;*/
+    font-family: 'Raleway', Arial;
     font-size: 18px;
 }
 
@@ -21,7 +22,6 @@
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    height: 450px;
     color: #3498db;
     margin-top: 30px;
 }
@@ -35,20 +35,21 @@
     margin-top: 10px;
 }
 
-.head-text {
-    font-family: 'Sonsie One', cursive;
+.head-text{
+    font-family: 'Nothing You Could Do', cursive;
     max-width: 50%;
     margin: 53px auto;
+
 }
 
 .text-content {
     margin: 25px;
 }
 
-.jumbotron{
+/*.jumbotron{
     background-color: white;
     margin: 135px auto;
-}
+}*/
 
 .section-title {
     margin-bottom: 20px;
@@ -63,6 +64,7 @@
 .headshot {
     height: 250px;
     float: left;
+    margin: 50px;
 }
 
 .testimonials{
@@ -87,3 +89,32 @@
     margin-top: 40px;
     font-size: 14px;
 }
+
+@media only screen and (max-width: 600px) {
+    .subheader {
+        visibility: hidden;
+    }
+
+    .title-container: {
+        height: 200px;
+    }
+
+    .head-text {
+        margin: 75px auto 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .head-text {
+       font-size: 86px !important;
+
+    }
+
+    .title-container {
+        height: 450px;
+
+    }
+}
+
+
+
