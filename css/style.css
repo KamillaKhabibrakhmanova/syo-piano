@@ -64,7 +64,7 @@
 .headshot {
     height: 250px;
     float: left;
-    margin: 50px;
+    margin: 0 50px;
 }
 
 .testimonials{
