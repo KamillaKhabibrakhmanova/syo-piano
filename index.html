@@ -20,7 +20,6 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    <script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
 </head>
 
 <body>
@@ -30,7 +29,7 @@
 
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
-                <div class='col-md-9'>
+                <div class='col-md-6'>
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -48,8 +47,12 @@
                             <li class='nav-link'><a href="#bio">Bio</a></li>
                             <li class='nav-link'><a href="#testimonials">Testimonials</a></li>
                             <li class='nav-link'><a href="#contact">Contact</a></li>
+
                         </ul>
                     </div>
+                </div>
+                <div class='col-lg-3'>
+                    <p class='middle-nav'>First trial lesson free!</p>
                 </div>
                     <div class='col-lg-3 phone-box'>
                         <p>Call <a href="tel:+1-516-496-4645"> 516-496-4645</a></p>
@@ -88,7 +91,7 @@
         <h2 class='page-header'>Teacher Bio</h2>
         <div class='col-md-1'></div>
         <div class='col-md-4'>
-            <img class='headshot' src='./img/kamil_headshot.jpg' />
+            <img class='headshot' src='./img/piano-hands.jpg' />
         </div>
         <div class='col-md-6 testimonials-content'>
             Sofia has spent most of her life immersed in piano and received her formal music education in Moscow, Russia. She has over 30 years of experience teaching piano to students from all ages and backgrounds. In her free time, she expands her skillset by attending specialized workshops in music education and following the latest developments in the industry. She is listed as an accredited teacher by the Royal Conservatory of Music and is also a certified Steinway Educational Partner. Her students have received top scores at NYSSMA assessments, passed exams at the Royal Conservatory of Music, and played at Carnegie Hall, Lincoln Center.
@@ -105,7 +108,7 @@
         </div>
         <div class='col-md-2'></div>
     </div>
-    <div class='row'>
+    <!-- <div class='row'>
         <h2 class='page-header'>Testimonials</h2>
         <div id="testimonials" class='col-md-6'>
             <div class='testimonials panel panel-default'>
@@ -126,7 +129,7 @@
                     Kamilla Kennedy
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class='row'>
             <br />
             <h2 class='page-header'>Contact</h2>
@@ -135,7 +138,8 @@
             <div id="contact" div class='col-md-6 col-md-offset-3'>
                 <p id="signup-success" class="text-success"></p>
                 <p id="signup-error" class="text-danger"></p>
-                <form class="form-horizontal signup-form" id='signup-form' role="form" onsubmit="return signup(this)">
+                <form action="https://formspree.io/venessiel@gmail.com"
+                      method="POST" class="form=horlizontal signup-form" id="signup-form" role="form">
                     <div class="form-group">
                         <label for="name" class="col-sm-2 control-label">Name</label>
                         <div class="col-sm-10">
@@ -177,6 +181,17 @@
         <div id='footer'>
             Syosset Piano Academy ©&nbsp;2015&nbsp;| All Rights Reserved
         </div>
+        <script src="https://www.gstatic.com/firebasejs/3.3.2/firebase.js"></script>
+            <script>
+              // Initialize Firebase
+              var config = {
+                apiKey: "AIzaSyCBFzQO0Z-JSDoL8ZgUtju859I9HYgQ3Cw",
+                authDomain: "syossetpianoacademy-8bf36.firebaseapp.com",
+                databaseURL: "https://syossetpianoacademy-8bf36.firebaseio.com",
+                storageBucket: "syossetpianoacademy-8bf36.appspot.com",
+              };
+              firebase.initializeApp(config);
+            </script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- Bootstrap -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
