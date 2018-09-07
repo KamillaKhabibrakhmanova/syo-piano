@@ -12,6 +12,10 @@ body {
             box-sizing: border-box;
 }
 
+hr {
+    visibility: hidden;
+}
+
 .row {
     padding: 10px 30px;
 }
@@ -57,6 +61,7 @@ p.middle-nav {
 .text-content {
     margin: 25px;
 }
+
 
 /*.jumbotron{
     background-color: white;
@@ -104,8 +109,18 @@ p.middle-nav {
 }
 
 @media only screen and (max-width: 600px) {
+    hr {
+        visibility: visible; 
+        margin: 15px auto;
+        width: 50px;
+    }
+
     .subheader {
         visibility: hidden;
+    }
+
+    .jumbotron {
+        padding-bottom: 0px;
     }
 
     .title-container: {
@@ -113,14 +128,14 @@ p.middle-nav {
     }
 
     .head-text {
-        margin: 75px auto 0 auto;
+        max-width: 100%;
+        margin: 100px auto 0 auto;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .head-text {
        font-size: 86px !important;
-
     }
 
     .title-container {
