@@ -108,6 +108,13 @@ p.middle-nav {
     font-size: 14px;
 }
 
+@media only screen and (max-width: 1000px) {
+    .head-text {
+        max-width: 100%;
+        margin: 75px auto 0 auto;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     hr {
         visibility: visible; 
@@ -131,7 +138,12 @@ p.middle-nav {
         max-width: 100%;
         margin: 100px auto 0 auto;
     }
+
+    .center-text {
+        padding: 0;
+    }
 }
+
 
 @media only screen and (min-width: 1200px) {
     .head-text {
