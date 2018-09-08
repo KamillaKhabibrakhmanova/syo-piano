@@ -79,11 +79,10 @@ p.middle-nav {
 }
 
 .headshot {
-/*     width: 100%;
+    width: 100%;
     max-height: 250px;
     float: left;
-    margin: 0 auto; */
-    object-fit: cover;
+    margin: 0 auto;
 }
 
 .testimonials{
