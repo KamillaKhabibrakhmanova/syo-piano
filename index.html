@@ -73,35 +73,57 @@
         <div class='col-md-4 center-text'>
             <i class="fa fa-clock-o fa-5x"></i>
             <br />
-            <div class='section-title'><strong >Convenience</strong></div>
-            <p>We provide lessons from the convenience of your home or in my studio. Busy parents can simply make arrangements with their child provider for the scheduled lesson. If you prefer, I also offer the option of hosting the lesson at my studio in Syosset.</p>
+            <div class='section-title'><strong >Convenient and Affordable</strong></div>
+            <p>We provide lessons from the convenience of your home. If you prefer, we also offer the option of hosting the lesson at a home studio in Syosset. </p>
+            <p>Our small business model allows us to keep overhead costs low, which means that we can pass those savings on to you and offer much lower rates than larger music academies. </p>
         </div>
         <hr />
         <div class='col-md-4 center-text'>
             <i class="fa fa-trophy fa-5x"></i>
             <br />
             <div class='section-title'><strong>Track Record</strong></div>
-            <p>15 years of proven results, including top grades at NYSSMA every year. My students are able to user their accomplishments to give an extra boost to their applications to the most selective universities in the country. Students also have the option to prepare for exams at the Royal Conservatory of Music or prepare for recitals in local concert venues.</p>
+            <p>15 years of proven results, including top grades at NYSSMA every year. OUr students are able to user their accomplishments to give an extra boost to their applications to the most selective universities in the country. Students also have the option to prepare for exams at the Royal Conservatory of Music or prepare for recitals in local concert venues.</p>
         </div>
         <hr />
         <div class='col-md-4 center-text'>
             <i class="fa fa-music fa-5x"></i>
             <br />
             <div class='section-title'><strong>Customization</strong></div>
-            <p>Each student will be given a unique lesson plan developed according to their amibitions, time commitment, and skill level. Whether the end goal is entrance to a music academy or simply performing a Christmas song for their family, I make sure that each student gets the results they want. No matter what their level, all students regularly have a chance to showcase their work at regular recitals.
+            <p>Each student will be given a unique lesson plan tailored to their ambitions, time commitment, and skill level. Whether the end goal is entrance to a music academy or simply performing a Christmas song for their family, we make sure that each student gets the results they want. No matter what their level, all students regularly have a chance to showcase their work at regular recitals.
         </div>
     </div>
-    <div id="bio" class='row'>
-        <h2 class='page-header'>Teacher Bio</h2>
+    <div id="bio">
+      <h2 class='page-header'>Our Teachers</h2>
+      <div class="teacher-bio row">
         <div class='col-md-2'></div>
-        <div class='col-md-3'>
-            <img class='headshot' src='./img/sophiaPic.jpg' />
+        <div class='col-md-3 bio-image'>
+          <img class='headshot' src='./img/sofia2.jpg' />
         </div>
         <div class='col-md-6 testimonials-content'>
-            Sophia Guiza has spent most of her life immersed in piano and received her formal music education and masters degree in Moscow, Russia. She has over 30 years of experience teaching piano to students from all ages and backgrounds. In her free time, she expands her skillset by attending specialized workshops in music education and following the latest developments in the industry. She is listed as an accredited teacher by the Royal Conservatory of Music and is also a certified Steinway Educational Partner. Her students have received top scores at NYSSMA assessments, passed exams at the Royal Conservatory of Music, and have been accepted to the Manhattan School of Music.
+          <h3>Sophia Guiza</h3>
+          Sophia Guiza has spent most of her life immersed in piano and received her formal music education and masters degree in Moscow,
+          Russia. She has over 30 years of experience teaching piano to students from all ages and backgrounds. In her free time,
+          she expands her skillset by attending specialized workshops in music education and following the latest developments in
+          the industry. She is listed as an accredited teacher by the Royal Conservatory of Music and is also a certified Steinway
+          Educational Partner. Her students have received top scores at NYSSMA assessments, passed exams at the Royal Conservatory
+          of Music, and have been accepted to the Manhattan School of Music.
         </div>
         <div class='col-md-1'></div>
+      </div>
+
+      <div class="teacher-bio row">
+        <div class='col-md-2'></div>
+        <div class='col-md-6 testimonials-content'>
+          <h3>Ilya Ishchenko</h3>
+          Ilya Ishchenko began his piano career at the age of 8 in Russia. After graduating from Music Academy in his hometown of Buzuluk, he moved to pursue advanced music studies at the the Long Island Conservatory (New York) with Prof.Tamara Poddubnaya. He has performed at festivals in many different countries, including Russia, Holland, Germany, and the USA. Ilya is also the recipient of numerous awards at music competitions, including winning the grand prize at the prestigious Rachmaninoff International Piano Competition and the Elite International Music Competition at Carnegie Hall.
+        </div>
+              <div class='col-md-3'>
+                <img class='headshot' src='./img/ilya.jpg' />
+              </div>
+        <div class='col-md-1'></div>
+      </div>
     </div>
+
     <div id="pricing" class='row'>
         <div class='col-md-2'></div>
         <div class='col-md-8 text-content'>
@@ -118,11 +140,12 @@
         <div id="testimonials" class='col-md-6'>
             <div class='testimonials panel panel-default'>
                 <div class='testimonials-content panel-body'>
-                    We encourage all our students to participate in performances and recitals. Syosset Music Academy organizes yearly recitals for students to meet and showcase their hard work. Syosset Music Academy also prepares students for all parts of the NYSSMA examination process if they choose to participate.                 </div>
+                  We encourage all our students to participate in performances and recitals. Syosset Music Academy organizes yearly recitals for students to meet and showcase their hard work. Our next recital will in at the Steiway Piano Gallery in December 2019.
+                </div>
             </div>
         </div>
-        <div class='col-md-6 row'>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/5hVeqdhFdyM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <div class='col-md-6 row video-responsive'>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/5hVeqdhFdyM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
     </div>
         <div class='row'>
@@ -173,17 +196,6 @@
         <div id='footer'>
             Syosset Piano Academy ©&nbsp;2015&nbsp;| All Rights Reserved
         </div>
-        <script src="https://www.gstatic.com/firebasejs/3.3.2/firebase.js"></script>
-            <script>
-              // Initialize Firebase
-              var config = {
-                apiKey: "AIzaSyCBFzQO0Z-JSDoL8ZgUtju859I9HYgQ3Cw",
-                authDomain: "syossetpianoacademy-8bf36.firebaseapp.com",
-                databaseURL: "https://syossetpianoacademy-8bf36.firebaseio.com",
-                storageBucket: "syossetpianoacademy-8bf36.appspot.com",
-              };
-              firebase.initializeApp(config);
-            </script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- Bootstrap -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

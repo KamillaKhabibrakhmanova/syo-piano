@@ -14,6 +14,7 @@ body {
 
 hr {
     visibility: hidden;
+    display: none;
 }
 
 .row {
@@ -55,7 +56,6 @@ p.middle-nav {
     font-family: 'Nothing You Could Do', cursive;
     max-width: 50%;
     margin: 53px auto;
-
 }
 
 .text-content {
@@ -67,21 +67,30 @@ p.middle-nav {
     color: #3498db;
 }
 
-.center-text{
+.center-text {
+    margin: 0 auto;
     text-align: center;
     padding: 0 55px;
+    max-width: 700px;
+
+}
+
+.teacher-bio {
+  margin-top : 80px;
+}
+
+.teacher-bio h3 {
+  margin-top: 20px;
+}
+
+.bio-image {
+  text-align: center;
 }
 
 .headshot {
-    max-width: 100%;
-    height: auto;
-    float: left;
-    margin: 0 auto;
-}
-.headshot {
-    // make it proportional
     max-width:100%;
     height:auto;
+    max-height: 500px;
     float: left;
     margin: 0 auto;
 }
@@ -98,7 +107,25 @@ p.middle-nav {
     font-size: 18px;
     line-height: 28px;
     font-style: italic;
+    padding: 50px 30px;
 }
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 23.25%;
+    position: relative;
+    height: 0;
+}
+
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    max-height: 400px;
+}
+
 
 .panel-footer{
     text-align: right;
@@ -116,11 +143,30 @@ p.middle-nav {
     }
 }
 
+@media only screen and (max-width: 992px) {
+  hr {
+      visibility: visible;
+      margin: 15px auto;
+      width: 50px;
+      display: block;
+  }
+  
+  .bio-image {
+    height: 550px;
+  }
+
+  .headshot {
+    float: none;
+  }
+
+  .video-responsive {
+      padding-bottom: 41.25%;
+  }
+}
+
 @media only screen and (max-width: 600px) {
-    hr {
-        visibility: visible;
-        margin: 15px auto;
-        width: 50px;
+    .teacher-bio {
+        margin-top: 10px;
     }
 
     .subheader {
@@ -143,8 +189,18 @@ p.middle-nav {
     .center-text {
         padding: 0;
     }
+
+    .video-responsive {
+        padding-bottom: 56.25%;
+    }
+
 }
 
+@media only screen and (max-width: 1200px) {
+    .testimonials-content {
+      padding: 0 15px;
+    }
+}
 
 @media only screen and (min-width: 1200px) {
     .head-text {
