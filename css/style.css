@@ -1,15 +1,15 @@
-*{
+* {
     /*font-family: 'PT Serif', Arial;*/
-    font-family: 'Raleway', Arial;
-    font-size: 18px;
+    font-family: "Raleway", Arial;
+    font-size: 14px;
 }
 
 body {
     overflow-x: hidden;
     width: 100%;
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 hr {
@@ -25,13 +25,24 @@ hr {
     color: #3498db;
 }
 
-.fa, .section_title {
+.fa,
+.section_title {
     color: #3498db;
     margin-bottom: 10px;
 }
 
+.logo-row {
+    margin-top: 100px;
+    padding: 0;
+}
+
+.logo {
+    margin-top: 10%;
+    max-width: 100%;
+}
+
 .title_container {
-    background-image: url('../img/keyboard.jpg');
+    background-image: url("../img/logo.png");
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
@@ -40,7 +51,7 @@ hr {
 }
 
 .page-header {
-    margin:30px;
+    margin: 30px;
     text-align: center;
 }
 
@@ -50,12 +61,6 @@ p.middle-nav {
 
 .phone-box {
     margin-top: 10px;
-}
-
-.head-text{
-    font-family: 'Nothing You Could Do', cursive;
-    max-width: 50%;
-    margin: 53px auto;
 }
 
 .text-content {
@@ -72,38 +77,37 @@ p.middle-nav {
     text-align: center;
     padding: 0 55px;
     max-width: 700px;
-
 }
 
 .teacher-bio {
-  margin-top : 80px;
+    margin-top: 80px;
 }
 
 .teacher-bio h3 {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .bio-image {
-  text-align: center;
+    text-align: center;
 }
 
 .headshot {
-    max-width:100%;
-    height:auto;
+    max-width: 100%;
+    height: auto;
     max-height: 500px;
     float: left;
     margin: 0 auto;
 }
 
-.testimonials{
+.testimonials {
     background-color: white;
-    border: 1px solid rgba(0,0,0,0.15);
-    box-shadow: 4px 4px 0px rgba(0,0,0,0.025);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.025);
     margin: 25px;
 }
 
-.testimonials-content{
-    font-family: 'PT Serif',Arial !important;
+.testimonials-content {
+    font-family: "PT Serif", Arial !important;
     font-size: 18px;
     line-height: 28px;
     font-style: italic;
@@ -126,8 +130,7 @@ p.middle-nav {
     max-height: 400px;
 }
 
-
-.panel-footer{
+.panel-footer {
     text-align: right;
 }
 
@@ -136,41 +139,30 @@ p.middle-nav {
     font-size: 14px;
 }
 
-@media only screen and (max-width: 1000px) {
-    .head-text {
-        max-width: 100%;
-        margin: 75px auto 0 auto;
-    }
-}
-
 @media only screen and (max-width: 992px) {
-  hr {
-      visibility: visible;
-      margin: 15px auto;
-      width: 50px;
-      display: block;
-  }
-  
-  .bio-image {
-    height: 550px;
-  }
+    hr {
+        visibility: visible;
+        margin: 15px auto;
+        width: 50px;
+        display: block;
+    }
 
-  .headshot {
-    float: none;
-  }
+    .bio-image {
+        height: 550px;
+    }
 
-  .video-responsive {
-      padding-bottom: 41.25%;
-  }
+    .headshot {
+        float: none;
+    }
+
+    .video-responsive {
+        padding-bottom: 41.25%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     .teacher-bio {
         margin-top: 10px;
-    }
-
-    .subheader {
-        visibility: hidden;
     }
 
     .jumbotron {
@@ -181,11 +173,6 @@ p.middle-nav {
         height: 200px;
     }
 
-    .head-text {
-        max-width: 100%;
-        margin: 100px auto 0 auto;
-    }
-
     .center-text {
         padding: 0;
     }
@@ -193,25 +180,16 @@ p.middle-nav {
     .video-responsive {
         padding-bottom: 56.25%;
     }
-
 }
 
 @media only screen and (max-width: 1200px) {
     .testimonials-content {
-      padding: 0 15px;
+        padding: 0 15px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
-    .head-text {
-       font-size: 86px !important;
-    }
-
     .title-container {
         height: 450px;
-
     }
 }
-
-
-
