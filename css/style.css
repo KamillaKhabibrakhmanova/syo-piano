@@ -17,42 +17,54 @@ hr {
     display: none;
 }
 
+h2 {
+    color: #652c90;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+}
+
+h3 {
+    color: #ec008b;
+}
+
+.purple {
+    color: #652c90;
+}
+
+.yellow {
+    color: #feeb8b;
+}
+
+.pink {
+    color: #ec008b;
+}
+
 .row {
     padding: 10px 30px;
 }
 
 .navbar-default {
-    color: #3498db;
+    color: #ec008b;
 }
 
 .fa,
 .section_title {
-    color: #3498db;
     margin-bottom: 10px;
 }
 
+.section-title {
+    color: #ec008b;
+    margin-bottom: 20px;
+}
+
 .logo-row {
-    margin-top: 100px;
     padding: 0;
 }
 
 .logo {
-    margin-top: 10%;
+    margin-top: 3%;
     max-width: 100%;
-}
-
-.title_container {
-    background-image: url("../img/logo.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
-    color: #3498db;
-    margin-top: 30px;
-}
-
-.page-header {
-    margin: 30px;
-    text-align: center;
 }
 
 p.middle-nav {
@@ -65,11 +77,6 @@ p.middle-nav {
 
 .text-content {
     margin: 25px;
-}
-
-.section-title {
-    margin-bottom: 20px;
-    color: #3498db;
 }
 
 .center-text {
@@ -160,7 +167,11 @@ p.middle-nav {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
+    .logo-row {
+        margin-top: 150px;
+    }
+
     .teacher-bio {
         margin-top: 10px;
     }
