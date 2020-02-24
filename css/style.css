@@ -44,8 +44,12 @@ h3 {
     padding: 10px 30px;
 }
 
-.navbar-default {
+.navbar-default .navbar-brand {
     color: #ec008b;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #652c90;
 }
 
 .fa,
