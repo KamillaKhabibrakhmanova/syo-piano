@@ -86,6 +86,11 @@ p.middle-nav {
     max-width: 700px;
 }
 
+.btn-primary {
+    background-color: #ec008b;
+    border-color: #ec008b;
+}
+
 .teacher-bio {
     margin-top: 80px;
 }
