@@ -1,7 +1,6 @@
 * {
     /*font-family: 'PT Serif', Arial;*/
     font-family: "Raleway", Arial;
-    font-size: 14px;
 }
 
 body {
@@ -19,7 +18,7 @@ hr {
 
 h2 {
     color: #652c90;
-    font-size: 40px;
+    font-size: 24px;
     text-align: center;
     font-weight: 800;
 }
